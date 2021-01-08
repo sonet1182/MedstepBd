@@ -44,7 +44,10 @@
 @include('frontEnd.layouts.header')
 
 @yield('content')
+
 @include('frontEnd.layouts.footer')
+
+
 <script src="{{asset('public/frontEnd/js/jquery.js')}}"></script>
 <script src="{{asset('public/frontEnd/js/bootstrap.min.js')}}"></script>
 <script src="{{asset('public/frontEnd/js/jquery.scrollUp.min.js')}}"></script>
